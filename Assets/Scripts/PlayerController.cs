@@ -19,7 +19,6 @@ public class PlayerController : MonoBehaviour
     private float gravityValue = -9.81f;
 
     private InputAction moveAction;
-    //private InputAction lookAction;
     private InputAction jumpAction;
     private InputAction shootAction;
 
@@ -30,6 +29,8 @@ public class PlayerController : MonoBehaviour
     public GameObject cannon;
     public GameObject bullet;
 
+    public Light light;
+
     private void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -38,7 +39,6 @@ public class PlayerController : MonoBehaviour
         cameraTransform = camera.transform;
 
         moveAction = playerInput.actions["Move"];
-        //lookAction = playerInput.actions["Look"];
         jumpAction = playerInput.actions["Jump"];
         shootAction = playerInput.actions["Shoot"];
 

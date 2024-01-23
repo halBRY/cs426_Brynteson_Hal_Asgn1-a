@@ -1639,6 +1639,7 @@ MonoBehaviour:
   shootingEnabled: 0
   cannon: {fileID: 1493163539}
   bullet: {fileID: 2061370050947022665, guid: 06123d3bcff3ce24080c823e1c9a69e1, type: 3}
+  light: {fileID: 0}
 --- !u!114 &713950174
 MonoBehaviour:
   m_ObjectHideFlags: 0
