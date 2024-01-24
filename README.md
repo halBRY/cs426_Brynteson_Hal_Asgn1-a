@@ -5,3 +5,7 @@ Sources:
 * HDRI Skybox Texture: https://polyhaven.com/a/autumn_field
 * Sprite billboarding script adapted from: https://www.youtube.com/watch?v=FjJJ_I9zqJo&t=448s
 * 3rd person camera adapted from: https://www.youtube.com/watch?v=SeBEvM2zMpY
+
+Piazza Comments were left on the following student's posts:
+* Rohit Reddy Kesireddy
+* Ceasar Attar
